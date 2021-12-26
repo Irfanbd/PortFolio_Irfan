@@ -85,10 +85,15 @@
     border-radius: 5px;
     color: #fff;
     background: #d66a94;
+    font-weight: 600;
     
 }
 .info a:hover{
- transform: scale(2) rotate(0deg);
+ transform: scale(1.3) rotate(0deg);
+ font-family: cursive;
+ background: -webkit-linear-gradient(rgb(245, 35, 35), rgb(95, 76, 204));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
  
  
 }
@@ -131,3 +136,21 @@
        color: #ff4321;
        
    }
+
+
+
+   /*About*/
+   .about{
+       height: 60vh;
+       width: 100%;
+       background:linear-gradient(#b989ea,#f48470,rgb(172, 97, 241)) ;
+       color: #fff;
+        margin-top:2px;
+        padding-top: 80px;
+        padding-bottom:30px;
+        display: flex;
+   }
+   .about-col{
+    flex-basis:100%;
+    padding: 30px 2px;
+}
