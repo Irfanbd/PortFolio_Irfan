@@ -123,13 +123,12 @@
    }
    .social-links{
        margin-left: 8%;
-       margin-top: 100px;
-
    }
    .social-links a{
        font-size: 30px;
        color: #918b8a;
        margin-right: 20px;
+       
    }
    .social-links a:hover{
    
