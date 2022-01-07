@@ -149,8 +149,9 @@
         padding-top: 80px;
         padding-bottom:30px;
         display: flex;
+        flex-basis: 33%;
    }
-   .about-col{
-    flex-basis:100%;
-    padding: 30px 2px;
-}
+   .about-col1{
+       flex-basis: 33%;
+       padding:30px 2px ;
+   }
