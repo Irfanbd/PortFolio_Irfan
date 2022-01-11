@@ -201,3 +201,135 @@ p{
 
 
 }
+
+
+
+
+/**Full size website */
+.fullweb{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+.fweb-col{
+
+    border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.fweb-col img{
+    width: 300px;
+    height: 702px;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    
+}
+.layer:hover{
+    background: #addce777;
+   
+}
+.layer h3 {
+    color: rgb(255, 254, 254);
+    font-size: 35px;
+    letter-spacing: 3px;
+    width: 100%;
+    font-weight: 500;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+opacity: 0;
+transition: .5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.fullweb .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/**About me  */
+.about-us{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    
+    
+}
+.about-us .row{
+
+    display: flex;
+    justify-content: center;
+}
+.text{
+    max-width: 60%;
+    height: 500px;
+}
+/**Contact */
+.blog-content{
+    width: 80%;
+    margin: auto;
+    
+
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.comment-box{
+    border: 1px solid rgb(223, 36, 36);
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+    color: #f44336;
+}
+.comment-form input, .comment-form textarea{
+    width:100% ;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button{
+    margin: 10px 0;
+}
+.hero-btn-blog{
+    display: inline-block;
+    text-decoration: none;
+    color: #f44336;
+    border: 3px solid rgb(19, 159, 240);
+    padding: 10px 20px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.hero-btn-blog:hover{
+    color: #5ac5e0;
+}
+@media(max-width:700px){
+    .blog-header h1{
+        font-size: 24px;
+    }
+}
